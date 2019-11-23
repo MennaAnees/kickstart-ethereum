@@ -13,6 +13,7 @@ campaign project for creating campaigns and contribute in other campaigns.
 ***How to start it:***
 - clone the project 
 - cd the project 
+- run ```npm i```
 - run ```npm run dev```
 
 ***How to test it:***
