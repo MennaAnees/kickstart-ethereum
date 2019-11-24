@@ -14,7 +14,7 @@ campaign project for creating campaigns and contribute in other campaigns.
 - clone the project 
 - cd the project 
 - run ```npm i```
-- run ```npm run dev```
+- run ```node server.js```
 
 ***How to test it:***
 - cd the project 
