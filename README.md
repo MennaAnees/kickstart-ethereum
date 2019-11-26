@@ -10,11 +10,21 @@ campaign project for creating campaigns and contribute in other campaigns.
 - semantic-ui-react
 - mocha
 
-***How to start it:***
+***Prerequisite:***
+- Metamask extension on chrome 
 - clone the project 
+- deploy the ethereum contract:
+  - cd the project
+  - ```cd ethereum```
+  - run ```node compile.js```
+  - run  ```node deploy.js```
+  - in the terminal the address of deployed contract will be printed, copy it and paste in the ethereum/factory.js 
+
+
+***How to start it:*** 
 - cd the project 
 - run ```npm i```
-- run ```npm run dev```
+- run ```node server.js```
 
 ***How to test it:***
 - cd the project 

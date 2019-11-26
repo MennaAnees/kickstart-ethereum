@@ -14,7 +14,7 @@ var _CamapignFactory2 = _interopRequireDefault(_CamapignFactory);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var instance = new _web2.default.eth.Contract(JSON.parse(_CamapignFactory2.default.interface), '0x9F2Cd82926410c75b0fe12fE9B8FCfe3A3DD1DA8');
+var instance = new _web2.default.eth.Contract(JSON.parse(_CamapignFactory2.default.interface), '0xb213Fd515A51ca1D2B2e448162f4C9267f6076C2');
 
 exports.default = instance;
 //# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImV0aGVyZXVtL2ZhY3RvcnkuanMiXSwibmFtZXMiOlsid2ViMyIsIkNhbXBhaWduRmFjdG9yeSIsImluc3RhbmNlIiwiZXRoIiwiQ29udHJhY3QiLCJKU09OIiwicGFyc2UiLCJpbnRlcmZhY2UiXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBLEFBQU8sQUFBUCxBQUFpQixBQUFqQjs7OztBQUNBLEFBQU8sQUFBUCxBQUE0QixBQUE1Qjs7Ozs7O0FBRUEsSUFBTSxXQUFXLElBQUksY0FBSyxBQUFMLElBQVMsQUFBYixTQUNiLEtBQUssQUFBTCxNQUFXLDBCQUFnQixBQUEzQixBQURhLFlBRWIsQUFGYSxBQUFqQixBQUtBOztrQkFBZSxBQUFmIiwiZmlsZSI6ImZhY3RvcnkuanMiLCJzb3VyY2VSb290IjoiL2hvbWUvbWVlbS9ldGhlcmV1bS9raWNrc3RhcnQtZXRoZXJldW0ifQ==
