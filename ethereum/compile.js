@@ -13,7 +13,6 @@ const solc = require('solc');
 const buildPath = path.resolve(__dirname, 'build');
 fs.removeSync(buildPath);
 
-//ana hena b3ml l path bta3 Campaign.sol file 
 const campaignPath = path.resolve(__dirname, 'contracts', 'Campaign.sol');
 
 // and then read it

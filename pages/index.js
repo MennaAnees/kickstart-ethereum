@@ -7,7 +7,6 @@ import { Link } from '../routes';
 class CampaignIndex extends Component {
   static async getInitialProps() {
     const campaigns = await factory.methods.getDeployedCampaigns().call();
-    console.log(">>>>", campaigns);
     return { campaigns };
   }
 

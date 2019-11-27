@@ -35,12 +35,11 @@ contract Camapign{
     uint public approversCount;
     
     //here we dont repeat ourselves
-    //lw 3awza a3ml reqauire ll manager bs fi func bst5dm l modifier da bdl ma afdl aktb require
     modifier restricted(){
         // global func for validation if expression inside is true we continue execute
         //here we check the one who will execute the func is the manager
         require(msg.sender == manager);
-        _; // when u add restricted modifier to any func .. the body of the func comes here mkan l _ :D
+        _;
     }
     
     function Camapign(uint minimum, address creater) public{
